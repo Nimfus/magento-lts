@@ -33,6 +33,11 @@
                 <class>Multidots_HelloWorld_Helper</class>
             </helloworld>
         </helpers>
+        <blocks>
+            <Multidots_HelloWorld>
+                <class>Multidots_HelloWorld_Block</class>
+            </Multidots_HelloWorld>
+        </blocks>
     </global>
     <adminhtml>
         <menu>
