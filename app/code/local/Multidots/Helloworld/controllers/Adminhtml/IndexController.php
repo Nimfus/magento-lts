@@ -1,6 +1,6 @@
 <?php
 
-class Multidots_HelloWorld_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action {
+class Multidots_Helloworld_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action {
 
     /**
      * Admin controller index action

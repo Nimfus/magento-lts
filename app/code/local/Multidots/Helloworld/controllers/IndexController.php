@@ -1,6 +1,6 @@
 <?php
 
-class Multidots_HelloWorld_IndexController extends Mage_Core_Controller_Front_Action{
+class Multidots_Helloworld_IndexController extends Mage_Core_Controller_Front_Action{
 
     /**
      * Index action

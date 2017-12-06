@@ -1,5 +1,5 @@
 <?php
-class Multidots_HelloWorld_Block_Helloworld extends Mage_Core_Block_Template
+class Multidots_Helloworld_Block_Hello extends Mage_Core_Block_Template
 {
     /**
      * @return string

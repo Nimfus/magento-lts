@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Multidots_HelloWorld>
+        <Multidots_Helloworld>
             <version>0.1.0</version>
-        </Multidots_HelloWorld>
+        </Multidots_Helloworld>
     </modules>
     <frontend>
         <routers>
             <helloworld>
                 <use>standard</use>
                 <args>
-                    <module>Multidots_HelloWorld</module>
+                    <module>Multidots_Helloworld</module>
                     <frontName>helloworld</frontName>
                 </args>
             </helloworld>
@@ -21,17 +21,22 @@
             <helloworld>
                 <use>admin</use>
                 <args>
-                    <module>Multidots_HelloWorld</module>
+                    <module>Multidots_Helloworld</module>
                     <frontName>admin_helloworld</frontName>
                 </args>
             </helloworld>
         </routers>
     </admin>
     <global>
+        <helpers>
+            <helloworld>
+                <class>Multidots_Helloworld_Helper</class>
+            </helloworld>
+        </helpers>
         <blocks>
-            <Multidots_HelloWorld>
-                <class>Multidots_HelloWorld_Block</class>
-            </Multidots_HelloWorld>
+            <Multidots_Helloworld>
+                <class>Multidots_Helloworld_Block</class>
+            </Multidots_Helloworld>
         </blocks>
     </global>
     <adminhtml>
